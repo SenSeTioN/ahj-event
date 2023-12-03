@@ -1,6 +1,7 @@
 # Домашнее задание к занятию "3.Обработка событий"
 
-![CI](https://github.com/SenSeTioN/ajs-event/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/SenSeTioN/ajs-env/actions/workflows/web.yml/badge.svg)
+
 
 Правила сдачи задания:
 
