@@ -1,5 +1,5 @@
-import createPosition from "./createPosition";
-import cursors from "./cursors";
+import createPosition from './createPosition';
+import cursors from './cursors';
 
 export default class GameController {
   constructor(gamePlay) {
@@ -13,7 +13,7 @@ export default class GameController {
 
   init() {
     this.events();
-    this.gamePlay.drawUi("prairie");
+    this.gamePlay.drawUi('prairie');
     this.showCharacter();
   }
 
@@ -32,7 +32,7 @@ export default class GameController {
 
   onCellClick(index) {
     this.gamePlay.setCursor(cursors.crosshair);
-    if (document.querySelector(".selected-red")) {
+    if (document.querySelector('.selected-red')) {
       this.gamePlay.deselectCell(this.indexSelect.red);
     }
     if (this.timerId) {
